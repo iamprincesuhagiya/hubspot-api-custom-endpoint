@@ -1,0 +1,17 @@
+{
+  "name": "hubspot-api-custom-endpoint",
+  "version": "1.0.0",
+  "description": "Node.js implementation of a custom API endpoint for HubSpot, enabling seamless integration and data handling within the HubSpot CMS and CRM ecosystem. <!-- Test Commit  -->",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=.env node --watch server.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

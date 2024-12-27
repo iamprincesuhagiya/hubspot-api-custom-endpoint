@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=.env node --watch server.js"
-
+    "start": "node --env-file=.env --watch server.js"
   },
   "keywords": [],
   "author": "",
